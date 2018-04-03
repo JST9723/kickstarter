@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Thread</title>
+        <meta name="viewport" content="width = device-width, initial-scale = 1">      
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Chewy' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+        <link rel="stylesheet" href="Assets/style.css">
+        <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>           
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">
+
+        </script> 
+    </head>
+   
+    <body> 
+        <nav>
+            <div class="nav-wrapper white">
+              <a href="#" class="brand-logo center">Kickstarter</a>
+            </div>
+        </nav>
+        <div class="row center">
+            <div class="container">
+                <h3>Thread</h3>
+                <p class="grey-text">Understand your sleep health and connect with people across the world.</p>
+                <div class ="video-container">
+                    <video  width="640" height="500" controls>
+                        <source src = "Assets/ThreadFinalVideo.mp4" type = "video/mp4"/>
+                    </video>
+                </div>
+            </div>
+        </div>
+        <div class="row center" id="support">
+            <div class="container">
+                <a class="waves-effect waves-light btn">Support this project</a>
+            </div>
+        </div>
+        
+        
+        <div class="row">
+            <hr style="margin:0px; border-color:#e0e0e0; border-width: 0.5px;">
+            <div class="container">
+                <div class="col s8">
+                    <ul class="tabs" style="height: 55px; margin-top: 10px;">
+                        <li class="tab col s2"><a class="active" href="#campaign">Campaign</a></li>
+                        <li class="tab col s2"><a href="#faq">FAQ</a></li>
+                        <li class="tab col s2"><a href="#updates">Updates</a></li>
+                        <li class="tab col s2"><a href="#comment">Comments</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row" style="margin:0px;"></div>
+            <hr style="margin:0px; border-color:#e0e0e0;border-width: 0.5px;">
+
+            <div class="container">
+                <!--- Campaign -->
+                <div id ="campaign" class ="col s12">
+                    <div class="content">
+                        <h3>About</h3>
+                        <img src="Assets/img/pillow.png" style="margin-top:40px; width:100%" alt="pillow">
+                        <h4 style="margin-top: 50px;"><b>What is Thread?</b></h4>
+                        <p>Thread, a bed set including a pillow case, sheet and optional eye mask, is designed to help people sleep better and connect people across the word. Thread has sensor that can detect your body temperature, track your sleep cycle and wake you up at the optimal time. However, we believe the power of Thread comes from connecting with others, not just looking at your own data. With Thread you can connect with people across the world who have similar sleeping patterns as you. Thread is also connected to a dream diary where you can make notes about your good, bad or neutral dreams and easily share your stories with people around the world.
+
+                        When possible, we integrate dreams you logged with the last REM cycle we captured for that night.
+                        </p>
+                        <img src="Assets/img/globe.png" style="margin-top:40px; width:100%" alt="pillow">
+
+
+                        <h4 style="margin-top: 90px;"><b>Features</b></h4>
+                        <div class="row" id="feature">
+
+                          <div class="col s5">
+                            <img src="Assets/img/sleep.png" class="center" alt="sleep-pattern">
+                            <p>See facts about your own sleep health, thread will wake you up at the optimal time.<p>
+                          </div>
+                          <div class="col s5 right">
+                            <img src="Assets/img/same-pattern.png" class="center" alt="sleep-pattern">
+                            <p>Connect with another person in another part of the world who shared your same sleep pattern.</p>
+                          </div>
+
+                        </div>
+                        <div class="row">
+
+                          <div class="col s5">
+                            <img src="Assets/img/world.png" class="center" alt="globe">
+                            <p>Understand patterns of sleep in different parts of the entire world.</p>
+                          </div>
+                          <div class="col s5 right">
+                            <img src="Assets/img/screen-Jodi.png" class="center" alt="globe">
+                            <p>Share and discover dreams experienced during sleep in our community.</p>
+                          </div>
+                        </div><br><br>
+                            
+                        <img src="Assets/img/IOT1.gif" class="center" style="width:60%;height:45%;">
+                        <h5><i>“...it is seen that there are many aspects of dream sharing in the community that have potential healing capacities.”</i></h5>
+                        <p class="right"><i>- Morgan, A. K. (Director). (2010). The dream-creativity connection</i></p>
+
+                        <!-- Our Missions -->
+                        <h4 id="mission"><b>Our Missions</b></h4>
+                        <p>Our mission is to help the entire world sleep better and connect people across the world by sharing their most intimate experiences. We aim to create a community that empowers individuals with empathy and understanding by sharing sleep patterns, dreams and experiences. We believe that technology has the potential for making people feel connected and creating a friendly community.</p>
+                        <p>Additionally, for every thread set bought, we will donate one to someone in the opposite timezone, to create more opportunities for people across the world from each other to connect.</p>
+
+                        <div id="team">
+                            <h4 style="margin-bottom: 40px;"><b>Our Team</b></h4>
+                            <img src="Assets/img/team.jpg" class="center" style="width:100%">
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- FAQ -->
+                <div id="faq" class="col s12">
+                    <div class="content">
+                        <h3>Frequently Asked Questions</h3>
+                        <ul class="collapsible">
+                            <li>
+                              <div class="collapsible-header">Do you offer different sizes?<i class="material-icons">chevron_right</i></div>
+                              <div class="collapsible-body"><p>Thread comes in Twin, Queen and King sizes. However, if you have another size in mind, just ask! Our technology is flexible and is more about our thread based sensors than the sheets themselves.</p></div>
+                            </li>
+                            <li>
+                              <div class="collapsible-header"><i class="material-icons">chevron_right</i>How does Thread work?</div>
+                              <div class="collapsible-body"><p>Thread using discrete microlocation and connected scale devices to help track your sleep patterns and behaviors, much as you may already have on an app on your phone, but much more accurate since it is incorporated into your sheets and pillow. </p></div>
+                            </li>
+                            <li>
+                              <div class="collapsible-header"><i class="material-icons">chevron_right</i>How can I control who sees my information?</div>
+                              <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+                            </li>
+                        </ul>
+                    </div>
+                        
+                </div>
+
+
+                <div id="updates" class="col s12">
+ 
+                <div class="page-header">
+                    <h3 id="timeline">Timeline</h3>
+                </div>
+
+                <!-- Forked from bootstrap example:https://bootsnipp.com/snippets/featured/timeline-responsive -->
+                <ul class="timeline">
+                    <li>
+                      <div class="timeline-badge"><i class="material-icons badge">beenhere</i></div>
+                      <div class="timeline-panel">
+                        <div class="timeline-heading">
+                          <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                          <p><small class="text-muted"><i class="material-icons">access_time</i> 11 hours ago via Twitter</small></p>
+                        </div>
+                        <div class="timeline-body">
+                          <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="timeline-inverted">
+                      <div class="timeline-badge warning"><i class="material-icons badge">thumb_up</i></div>
+                      <div class="timeline-panel">
+                        <div class="timeline-heading">
+                          <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                        </div>
+                        <div class="timeline-body">
+                          <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                        </div>
+                      </div>
+                    </li>
+                </ul>
+                </div>
+
+
+                <div id="comment" class="col s12">
+                    <div class="row" id="comments">
+                        <div class="input-field col s12">
+                          <i class="material-icons prefix">textsms</i>
+                          <input type="text" id="autocomplete-input" class="autocomplete">
+                          <label for="autocomplete-input">Leave your comments</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
