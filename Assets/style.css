@@ -287,3 +287,7 @@ li .active {
 .badge {
 	padding-top: 15px;
 }
+
+.video-container {
+    height: 550px;
+}
